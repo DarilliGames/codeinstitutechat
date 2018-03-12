@@ -26,7 +26,7 @@ SECRET_KEY = 'y#axcs%52q)spbm@p-w-oqajbq^t=yorv8_!yl1o10i@h6xgfs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["djangoremake-smoody.c9users.io"]
+ALLOWED_HOSTS = ["djangoremake-smoody.c9users.io", "codeinstitutechat.herokuapp.com"]
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
