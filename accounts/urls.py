@@ -1,12 +1,9 @@
 from django.conf.urls import url
-
 from .views import *
 
 urlpatterns = [
-    url(r'^$', get_index, name="accounts"),
-    url(r'^login/', login_accounts, name="login"),
-    url(r'^register/', register, name="register"),
-    url(r'^logout/', logout, name="logout"),
-    url(r'^profile/', get_profile, name="profile"),
-    
+    url(r'^logout/', logout, name='logout'),
+    url(r'^login/', login, name='login'),
+    url(r'^profile/', profile, name='profile'),
+    url(r'^register/', register, name='register'),
 ]
