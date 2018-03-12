@@ -10,8 +10,7 @@ def get_index(request):
     return render(request, "messenger/index.html")
 
 def inbox(request):
-    unread = request.user.messages_received.filter(read=False)
-    return render(request, "messenger/inbox.html", {"unread":len(unread)})
+    return render(request, "messenger/inbox.html")
     
 def sent(request):
     return render(request, "messenger/sent.html")
