@@ -1,1 +1,1 @@
-web: gunicorn djangoremake.wsgi
+web: gunicorn djangoremake.wsgi:application
